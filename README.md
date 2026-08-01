@@ -17,22 +17,22 @@
 
 <div align="center">
 
-### `░░░░░░░░░░░░░░░░░░░░` &nbsp; 0 / 8 Units &nbsp; **0%**
+### `████████████████████` &nbsp; 8 / 8 Units &nbsp; **100%**
 
-🕐 마지막 업데이트: -
+🕐 마지막 업데이트: 2026-08-01 20:26 KST
 
 <br>
 
 | 상태 | Unit | 주제 | 정리본 | 커리큘럼 메모 |
 |:---:|:---:|:---:|:---:|:---:|
-| ⬜ | **Unit 1** | Intro to Deep RL | 미업로드 | 미업로드 |
-| ⬜ | **Unit 2** | Q-Learning | 미업로드 | 미업로드 |
-| ⬜ | **Unit 3** | Deep Q-Learning (DQN) | 미업로드 | 미업로드 |
-| ⬜ | **Unit 4** | Policy Gradient (REINFORCE) | 미업로드 | 미업로드 |
-| ⬜ | **Unit 5** | Unity ML-Agents | 미업로드 | 미업로드 |
-| ⬜ | **Unit 6** | Actor-Critic (A2C) | 미업로드 | 미업로드 |
-| ⬜ | **Unit 7** | Multi-Agent RL (MARL) | 미업로드 | 미업로드 |
-| ⬜ | **Unit 8** | PPO | 미업로드 | 미업로드 |
+| ✅ | **Unit 1** | Intro to Deep RL | 업로드 | 업로드 |
+| ✅ | **Unit 2** | Q-Learning | 업로드 | 업로드 |
+| ✅ | **Unit 3** | Deep Q-Learning (DQN) | 업로드 | 업로드 |
+| ✅ | **Unit 4** | Policy Gradient (REINFORCE) | 업로드 | 업로드 |
+| ✅ | **Unit 5** | Unity ML-Agents | 업로드 | 업로드 |
+| ✅ | **Unit 6** | Actor-Critic (A2C) | 업로드 | 업로드 |
+| ✅ | **Unit 7** | Multi-Agent RL (MARL) | 업로드 | 업로드 |
+| ✅ | **Unit 8** | PPO | 업로드 | 업로드 |
 
 </div>
 
