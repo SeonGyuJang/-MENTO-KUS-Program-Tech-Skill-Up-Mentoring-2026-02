@@ -17,18 +17,18 @@
 
 <div align="center">
 
-### `██████████░░░░░░░░░░` &nbsp; 4 / 8 Units &nbsp; **50%**
+### `░░░░░░░░░░░░░░░░░░░░` &nbsp; 0 / 8 Units &nbsp; **0%**
 
-🕐 마지막 업데이트: 2026-08-01 20:44 KST
+🕐 마지막 업데이트: -
 
 <br>
 
 | 상태 | Unit | 주제 | 실습 파일 | 노션 정리본 |
 |:---:|:---:|:---:|:---:|:---:|
-| 🔶 | **Unit 1** | Intro to Deep RL | ❌ | ✅ |
-| 🔶 | **Unit 2** | Q-Learning | ❌ | ✅ |
-| 🔶 | **Unit 3** | Deep Q-Learning (DQN) | ❌ | ✅ |
-| 🔶 | **Unit 4** | Policy Gradient (REINFORCE) | ❌ | ✅ |
+| ⬜ | **Unit 1** | Intro to Deep RL | ❌ | ❌ |
+| ⬜ | **Unit 2** | Q-Learning | ❌ | ❌ |
+| ⬜ | **Unit 3** | Deep Q-Learning (DQN) | ❌ | ❌ |
+| ⬜ | **Unit 4** | Policy Gradient (REINFORCE) | ❌ | ❌ |
 | ⬜ | **Unit 5** | Unity ML-Agents | ❌ | ❌ |
 | ⬜ | **Unit 6** | Actor-Critic (A2C) | ❌ | ❌ |
 | ⬜ | **Unit 7** | Multi-Agent RL (MARL) | ❌ | ❌ |
@@ -45,7 +45,7 @@
 
 본 레포지토리는 **고려대학교 세종캠퍼스 학생복지처 취창업지원센터**가 주관하는 **T-SUM(Tech Skill Up Mentoring) 프로그램**의 **멘토 자료 저장소**입니다.
 
-[HuggingFace Deep Reinforcement Learning Course](https://huggingface.co/learn/deep-rl-course/unit0/introduction)를 기반으로 Unit 1~8의 **개념 정리본, 수업 계획 메모**를 체계적으로 관리하며, 멘티들의 학습을 지원하기 위한 참고 자료를 공개합니다.
+[HuggingFace Deep Reinforcement Learning Course](https://huggingface.co/learn/deep-rl-course/unit0/introduction)를 기반으로 Unit 1~8의 **실습 예시 코드**와 **개념 정리본(Notion) 링크**를 제공하며, 멘티들의 학습을 지원합니다.
 
 ---
 
@@ -62,20 +62,15 @@
 │   └── 🐍 update_progress.py          # 진행도 계산 스크립트
 │
 ├── 📁 unit-1/                         # Introduction to Deep RL
-│   ├── 📄 note.md                     # 개념 정리본
-│   └── 📄 curriculum.md               # 수업 진행 계획 메모
-├── 📁 unit-2/                         # Q-Learning
-├── 📁 unit-3/                         # Deep Q-Learning (DQN)
-├── 📁 unit-4/                         # Policy Gradient
-├── 📁 unit-5/                         # Unity ML-Agents
-├── 📁 unit-6/                         # Actor-Critic (A2C)
-├── 📁 unit-7/                         # Multi-Agent RL
-├── 📁 unit-8/                         # PPO (Part 1 & 2)
+│   ├── 📄 notion.txt                  # Notion 정리본 링크
+│   ├── 📓 (실습 파일.ipynb)            # 실습 예시 코드
+│   └── 📄 memo.md                     # 자유 기입 메모
+├── 📁 unit-2/ ~ unit-8/               # 동일한 구조
 │
 └── 📄 README.md
 ```
 
-> 각 `unit-N/` 폴더에 `note.md` 또는 `curriculum.md` 파일이 업로드되면 GitHub Actions가 자동으로 진행도를 갱신합니다.
+> `notion.txt` 에 Notion 링크를 붙여넣고, 실습 파일(`.ipynb` / `.py`)을 업로드하면 진행도가 자동으로 갱신됩니다.
 
 ---
 
@@ -85,8 +80,6 @@
 
 > 강화학습의 기초 개념과 첫 번째 에이전트 구현
 
-강화학습(RL)의 전반적인 학습 프레임워크를 이해하고, 에이전트(Agent)·환경(Environment)·보상(Reward)·정책(Policy) 등 핵심 개념을 학습합니다.
-
 <div align="center">
 
 | 항목 | 내용 |
@@ -94,7 +87,7 @@
 | 핵심 개념 | RL Framework, MDP, Agent-Environment Interaction |
 | 실습 환경 | `LunarLander-v2` |
 | 주요 라이브러리 | `stable-baselines3`, `gymnasium` |
-| 멘토 자료 경로 | `unit-1/` |
+| 자료 경로 | `unit-1/` |
 
 </div>
 
@@ -104,8 +97,6 @@
 
 > 가치 기반 학습의 핵심: Q-테이블 직접 구현
 
-Markov Decision Process(MDP)와 벨만 방정식(Bellman Equation)을 이해하고, Q-Learning 에이전트를 처음부터(scratch) 구현합니다.
-
 <div align="center">
 
 | 항목 | 내용 |
@@ -113,7 +104,7 @@ Markov Decision Process(MDP)와 벨만 방정식(Bellman Equation)을 이해하�
 | 핵심 개념 | Q-Table, Bellman Equation, ε-Greedy Policy, TD Learning |
 | 실습 환경 | `FrozenLake-v1`, `Taxi-v3` |
 | 주요 라이브러리 | `numpy`, `gymnasium` |
-| 멘토 자료 경로 | `unit-2/` |
+| 자료 경로 | `unit-2/` |
 
 </div>
 
@@ -123,8 +114,6 @@ Markov Decision Process(MDP)와 벨만 방정식(Bellman Equation)을 이해하�
 
 > 신경망을 결합한 DQN으로 Atari 게임 정복
 
-Q-Learning의 한계와 Deep Q-Network(DQN)의 핵심 안정화 기법(Experience Replay, Fixed Q-Target)을 이해합니다.
-
 <div align="center">
 
 | 항목 | 내용 |
@@ -132,7 +121,7 @@ Q-Learning의 한계와 Deep Q-Network(DQN)의 핵심 안정화 기법(Experienc
 | 핵심 개념 | DQN, Experience Replay, Fixed Q-Target, CNN |
 | 실습 환경 | `SpaceInvadersNoFrameskip-v4` |
 | 주요 라이브러리 | `rl-baselines3-zoo`, `gymnasium[atari]` |
-| 멘토 자료 경로 | `unit-3/` |
+| 자료 경로 | `unit-3/` |
 
 </div>
 
@@ -142,8 +131,6 @@ Q-Learning의 한계와 Deep Q-Network(DQN)의 핵심 안정화 기법(Experienc
 
 > 정책 직접 최적화: REINFORCE 알고리즘 구현
 
-Policy-Based 방법론의 이론을 학습하고, PyTorch로 REINFORCE 알고리즘을 직접 구현합니다.
-
 <div align="center">
 
 | 항목 | 내용 |
@@ -151,7 +138,7 @@ Policy-Based 방법론의 이론을 학습하고, PyTorch로 REINFORCE 알고리
 | 핵심 개념 | Policy Gradient, REINFORCE, Stochastic Policy |
 | 실습 환경 | `CartPole-v1`, `Pixelcopter-PLE-v0` |
 | 주요 라이브러리 | `torch`, `gymnasium` |
-| 멘토 자료 경로 | `unit-4/` |
+| 자료 경로 | `unit-4/` |
 
 </div>
 
@@ -161,8 +148,6 @@ Policy-Based 방법론의 이론을 학습하고, PyTorch로 REINFORCE 알고리
 
 > Unity 게임 엔진 기반 강화학습 환경 실습
 
-Unity ML-Agents 툴킷의 구조와 활용법을 이해하고, 3D 시뮬레이션 환경에서 에이전트를 학습시킵니다.
-
 <div align="center">
 
 | 항목 | 내용 |
@@ -170,7 +155,7 @@ Unity ML-Agents 툴킷의 구조와 활용법을 이해하고, 3D 시뮬레이�
 | 핵심 개념 | ML-Agents Toolkit, Unity Environment |
 | 실습 환경 | `SnowballTarget`, `Pyramids` |
 | 주요 라이브러리 | `mlagents` |
-| 멘토 자료 경로 | `unit-5/` |
+| 자료 경로 | `unit-5/` |
 
 </div>
 
@@ -180,8 +165,6 @@ Unity ML-Agents 툴킷의 구조와 활용법을 이해하고, 3D 시뮬레이�
 
 > 가치 기반 + 정책 기반의 결합: A2C 알고리즘
 
-Actor-Critic 아키텍처와 Advantage Function을 이해하고, 로봇 제어 환경에 적용합니다.
-
 <div align="center">
 
 | 항목 | 내용 |
@@ -189,7 +172,7 @@ Actor-Critic 아키텍처와 Advantage Function을 이해하고, 로봇 제어 �
 | 핵심 개념 | Actor-Critic, A2C, Advantage Function, Continuous Action Space |
 | 실습 환경 | `PyBullet` Robotics Environments |
 | 주요 라이브러리 | `stable-baselines3`, `pybullet` |
-| 멘토 자료 경로 | `unit-6/` |
+| 자료 경로 | `unit-6/` |
 
 </div>
 
@@ -199,8 +182,6 @@ Actor-Critic 아키텍처와 Advantage Function을 이해하고, 로봇 제어 �
 
 > 다수의 에이전트가 협력·경쟁하는 MARL
 
-MARL의 핵심 개념과 Self-Play 전략을 이해하고, 2vs2 축구 환경을 구성합니다.
-
 <div align="center">
 
 | 항목 | 내용 |
@@ -208,7 +189,7 @@ MARL의 핵심 개념과 Self-Play 전략을 이해하고, 2vs2 축구 환경을
 | 핵심 개념 | MARL, Self-Play, ELO Rating, Cooperative / Competitive Env |
 | 실습 환경 | `SoccerTwos` (Unity ML-Agents) |
 | 주요 라이브러리 | `mlagents` |
-| 멘토 자료 경로 | `unit-7/` |
+| 자료 경로 | `unit-7/` |
 
 </div>
 
@@ -239,7 +220,7 @@ MARL의 핵심 개념과 Self-Play 전략을 이해하고, 2vs2 축구 환경을
 | 핵심 개념 | High-Throughput RL Pipeline, Sample Factory |
 | 실습 환경 | `VizDoom` Health Gathering Supreme |
 | 주요 라이브러리 | `sample-factory`, `vizdoom` |
-| 멘토 자료 경로 | `unit-8/` |
+| 자료 경로 | `unit-8/` |
 
 </div>
 
