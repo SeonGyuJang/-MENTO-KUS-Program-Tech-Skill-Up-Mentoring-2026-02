@@ -17,22 +17,22 @@
 
 <div align="center">
 
-### `░░░░░░░░░░░░░░░░░░░░` &nbsp; 0 / 8 Units &nbsp; **0%**
+### `████████████████████` &nbsp; 8 / 8 Units &nbsp; **100%**
 
-🕐 마지막 업데이트: -
+🕐 마지막 업데이트: 2026-08-01 20:46 KST
 
 <br>
 
 | 상태 | Unit | 주제 | 실습 파일 | 노션 정리본 |
 |:---:|:---:|:---:|:---:|:---:|
-| ⬜ | **Unit 1** | Intro to Deep RL | ❌ | ❌ |
-| ⬜ | **Unit 2** | Q-Learning | ❌ | ❌ |
-| ⬜ | **Unit 3** | Deep Q-Learning (DQN) | ❌ | ❌ |
-| ⬜ | **Unit 4** | Policy Gradient (REINFORCE) | ❌ | ❌ |
-| ⬜ | **Unit 5** | Unity ML-Agents | ❌ | ❌ |
-| ⬜ | **Unit 6** | Actor-Critic (A2C) | ❌ | ❌ |
-| ⬜ | **Unit 7** | Multi-Agent RL (MARL) | ❌ | ❌ |
-| ⬜ | **Unit 8** | PPO | ❌ | ❌ |
+| 🔶 | **Unit 1** | Intro to Deep RL | ❌ | ✅ |
+| 🔶 | **Unit 2** | Q-Learning | ❌ | ✅ |
+| 🔶 | **Unit 3** | Deep Q-Learning (DQN) | ❌ | ✅ |
+| 🔶 | **Unit 4** | Policy Gradient (REINFORCE) | ❌ | ✅ |
+| 🔶 | **Unit 5** | Unity ML-Agents | ❌ | ✅ |
+| 🔶 | **Unit 6** | Actor-Critic (A2C) | ❌ | ✅ |
+| 🔶 | **Unit 7** | Multi-Agent RL (MARL) | ❌ | ✅ |
+| 🔶 | **Unit 8** | PPO | ❌ | ✅ |
 
 </div>
 
