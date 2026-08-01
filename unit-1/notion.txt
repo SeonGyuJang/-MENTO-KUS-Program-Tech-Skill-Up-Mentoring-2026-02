@@ -1,0 +1,6 @@
+# Unit 1 — Introduction to Deep Reinforcement Learning : Notion 정리본 링크
+
+아래에 Notion 링크를 붙여넣으세요.
+
+링크: https://app.notion.com/p/jangseongyu/UNIT-1-Introduction-to-Deep-Reinforcement-Learning-18723c5b4de7807696e2d54355749509
+

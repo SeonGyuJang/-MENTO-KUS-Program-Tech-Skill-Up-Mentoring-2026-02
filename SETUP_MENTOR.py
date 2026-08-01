@@ -64,20 +64,20 @@ README_CONTENT = """\
 
 <br>
 
-| 상태 | Unit | 주제 | 정리본 | 커리큘럼 메모 |
+| 상태 | Unit | 주제 | 실습 파일 | 노션 정리본 |
 |:---:|:---:|:---:|:---:|:---:|
-| ⬜ | **Unit 1** | Intro to Deep RL | 미업로드 | 미업로드 |
-| ⬜ | **Unit 2** | Q-Learning | 미업로드 | 미업로드 |
-| ⬜ | **Unit 3** | Deep Q-Learning (DQN) | 미업로드 | 미업로드 |
-| ⬜ | **Unit 4** | Policy Gradient (REINFORCE) | 미업로드 | 미업로드 |
-| ⬜ | **Unit 5** | Unity ML-Agents | 미업로드 | 미업로드 |
-| ⬜ | **Unit 6** | Actor-Critic (A2C) | 미업로드 | 미업로드 |
-| ⬜ | **Unit 7** | Multi-Agent RL (MARL) | 미업로드 | 미업로드 |
-| ⬜ | **Unit 8** | PPO | 미업로드 | 미업로드 |
+| ⬜ | **Unit 1** | Intro to Deep RL | ❌ | ❌ |
+| ⬜ | **Unit 2** | Q-Learning | ❌ | ❌ |
+| ⬜ | **Unit 3** | Deep Q-Learning (DQN) | ❌ | ❌ |
+| ⬜ | **Unit 4** | Policy Gradient (REINFORCE) | ❌ | ❌ |
+| ⬜ | **Unit 5** | Unity ML-Agents | ❌ | ❌ |
+| ⬜ | **Unit 6** | Actor-Critic (A2C) | ❌ | ❌ |
+| ⬜ | **Unit 7** | Multi-Agent RL (MARL) | ❌ | ❌ |
+| ⬜ | **Unit 8** | PPO | ❌ | ❌ |
 
 </div>
 
-> 📌 각 Unit 폴더에 파일을 업로드하면 진행도가 자동으로 갱신됩니다.
+> 📌 각 Unit 폴더에 실습 파일(`.ipynb`/`.py`)과 노션 링크(`notion.txt`)를 업로드하면 진행도가 자동으로 갱신됩니다.
 
 ---
 <!-- PROGRESS_END -->
@@ -86,7 +86,7 @@ README_CONTENT = """\
 
 본 레포지토리는 **고려대학교 세종캠퍼스 학생복지처 취창업지원센터**가 주관하는 **T-SUM(Tech Skill Up Mentoring) 프로그램**의 **멘토 자료 저장소**입니다.
 
-[HuggingFace Deep Reinforcement Learning Course](https://huggingface.co/learn/deep-rl-course/unit0/introduction)를 기반으로 Unit 1~8의 **개념 정리본, 수업 계획 메모**를 체계적으로 관리하며, 멘티들의 학습을 지원하기 위한 참고 자료를 공개합니다.
+[HuggingFace Deep Reinforcement Learning Course](https://huggingface.co/learn/deep-rl-course/unit0/introduction)를 기반으로 Unit 1~8의 **실습 예시 코드**와 **개념 정리본(Notion) 링크**를 제공하며, 멘티들의 학습을 지원합니다.
 
 ---
 
@@ -103,20 +103,15 @@ README_CONTENT = """\
 │   └── 🐍 update_progress.py          # 진행도 계산 스크립트
 │
 ├── 📁 unit-1/                         # Introduction to Deep RL
-│   ├── 📄 note.md                     # 개념 정리본
-│   └── 📄 curriculum.md               # 수업 진행 계획 메모
-├── 📁 unit-2/                         # Q-Learning
-├── 📁 unit-3/                         # Deep Q-Learning (DQN)
-├── 📁 unit-4/                         # Policy Gradient
-├── 📁 unit-5/                         # Unity ML-Agents
-├── 📁 unit-6/                         # Actor-Critic (A2C)
-├── 📁 unit-7/                         # Multi-Agent RL
-├── 📁 unit-8/                         # PPO (Part 1 & 2)
+│   ├── 📄 notion.txt                  # Notion 정리본 링크
+│   ├── 📓 (실습 파일.ipynb)            # 실습 예시 코드
+│   └── 📄 memo.md                     # 자유 기입 메모
+├── 📁 unit-2/ ~ unit-8/               # 동일한 구조
 │
 └── 📄 README.md
 ```
 
-> 각 `unit-N/` 폴더에 `note.md` 또는 `curriculum.md` 파일이 업로드되면 GitHub Actions가 자동으로 진행도를 갱신합니다.
+> `notion.txt` 에 Notion 링크를 붙여넣고, 실습 파일(`.ipynb` / `.py`)을 업로드하면 진행도가 자동으로 갱신됩니다.
 
 ---
 
@@ -126,8 +121,6 @@ README_CONTENT = """\
 
 > 강화학습의 기초 개념과 첫 번째 에이전트 구현
 
-강화학습(RL)의 전반적인 학습 프레임워크를 이해하고, 에이전트(Agent)·환경(Environment)·보상(Reward)·정책(Policy) 등 핵심 개념을 학습합니다.
-
 <div align="center">
 
 | 항목 | 내용 |
@@ -135,7 +128,7 @@ README_CONTENT = """\
 | 핵심 개념 | RL Framework, MDP, Agent-Environment Interaction |
 | 실습 환경 | `LunarLander-v2` |
 | 주요 라이브러리 | `stable-baselines3`, `gymnasium` |
-| 멘토 자료 경로 | `unit-1/` |
+| 자료 경로 | `unit-1/` |
 
 </div>
 
@@ -145,8 +138,6 @@ README_CONTENT = """\
 
 > 가치 기반 학습의 핵심: Q-테이블 직접 구현
 
-Markov Decision Process(MDP)와 벨만 방정식(Bellman Equation)을 이해하고, Q-Learning 에이전트를 처음부터(scratch) 구현합니다.
-
 <div align="center">
 
 | 항목 | 내용 |
@@ -154,7 +145,7 @@ Markov Decision Process(MDP)와 벨만 방정식(Bellman Equation)을 이해하�
 | 핵심 개념 | Q-Table, Bellman Equation, ε-Greedy Policy, TD Learning |
 | 실습 환경 | `FrozenLake-v1`, `Taxi-v3` |
 | 주요 라이브러리 | `numpy`, `gymnasium` |
-| 멘토 자료 경로 | `unit-2/` |
+| 자료 경로 | `unit-2/` |
 
 </div>
 
@@ -164,8 +155,6 @@ Markov Decision Process(MDP)와 벨만 방정식(Bellman Equation)을 이해하�
 
 > 신경망을 결합한 DQN으로 Atari 게임 정복
 
-Q-Learning의 한계와 Deep Q-Network(DQN)의 핵심 안정화 기법(Experience Replay, Fixed Q-Target)을 이해합니다.
-
 <div align="center">
 
 | 항목 | 내용 |
@@ -173,7 +162,7 @@ Q-Learning의 한계와 Deep Q-Network(DQN)의 핵심 안정화 기법(Experienc
 | 핵심 개념 | DQN, Experience Replay, Fixed Q-Target, CNN |
 | 실습 환경 | `SpaceInvadersNoFrameskip-v4` |
 | 주요 라이브러리 | `rl-baselines3-zoo`, `gymnasium[atari]` |
-| 멘토 자료 경로 | `unit-3/` |
+| 자료 경로 | `unit-3/` |
 
 </div>
 
@@ -183,8 +172,6 @@ Q-Learning의 한계와 Deep Q-Network(DQN)의 핵심 안정화 기법(Experienc
 
 > 정책 직접 최적화: REINFORCE 알고리즘 구현
 
-Policy-Based 방법론의 이론을 학습하고, PyTorch로 REINFORCE 알고리즘을 직접 구현합니다.
-
 <div align="center">
 
 | 항목 | 내용 |
@@ -192,7 +179,7 @@ Policy-Based 방법론의 이론을 학습하고, PyTorch로 REINFORCE 알고리
 | 핵심 개념 | Policy Gradient, REINFORCE, Stochastic Policy |
 | 실습 환경 | `CartPole-v1`, `Pixelcopter-PLE-v0` |
 | 주요 라이브러리 | `torch`, `gymnasium` |
-| 멘토 자료 경로 | `unit-4/` |
+| 자료 경로 | `unit-4/` |
 
 </div>
 
@@ -202,8 +189,6 @@ Policy-Based 방법론의 이론을 학습하고, PyTorch로 REINFORCE 알고리
 
 > Unity 게임 엔진 기반 강화학습 환경 실습
 
-Unity ML-Agents 툴킷의 구조와 활용법을 이해하고, 3D 시뮬레이션 환경에서 에이전트를 학습시킵니다.
-
 <div align="center">
 
 | 항목 | 내용 |
@@ -211,7 +196,7 @@ Unity ML-Agents 툴킷의 구조와 활용법을 이해하고, 3D 시뮬레이�
 | 핵심 개념 | ML-Agents Toolkit, Unity Environment |
 | 실습 환경 | `SnowballTarget`, `Pyramids` |
 | 주요 라이브러리 | `mlagents` |
-| 멘토 자료 경로 | `unit-5/` |
+| 자료 경로 | `unit-5/` |
 
 </div>
 
@@ -221,8 +206,6 @@ Unity ML-Agents 툴킷의 구조와 활용법을 이해하고, 3D 시뮬레이�
 
 > 가치 기반 + 정책 기반의 결합: A2C 알고리즘
 
-Actor-Critic 아키텍처와 Advantage Function을 이해하고, 로봇 제어 환경에 적용합니다.
-
 <div align="center">
 
 | 항목 | 내용 |
@@ -230,7 +213,7 @@ Actor-Critic 아키텍처와 Advantage Function을 이해하고, 로봇 제어 �
 | 핵심 개념 | Actor-Critic, A2C, Advantage Function, Continuous Action Space |
 | 실습 환경 | `PyBullet` Robotics Environments |
 | 주요 라이브러리 | `stable-baselines3`, `pybullet` |
-| 멘토 자료 경로 | `unit-6/` |
+| 자료 경로 | `unit-6/` |
 
 </div>
 
@@ -240,8 +223,6 @@ Actor-Critic 아키텍처와 Advantage Function을 이해하고, 로봇 제어 �
 
 > 다수의 에이전트가 협력·경쟁하는 MARL
 
-MARL의 핵심 개념과 Self-Play 전략을 이해하고, 2vs2 축구 환경을 구성합니다.
-
 <div align="center">
 
 | 항목 | 내용 |
@@ -249,7 +230,7 @@ MARL의 핵심 개념과 Self-Play 전략을 이해하고, 2vs2 축구 환경을
 | 핵심 개념 | MARL, Self-Play, ELO Rating, Cooperative / Competitive Env |
 | 실습 환경 | `SoccerTwos` (Unity ML-Agents) |
 | 주요 라이브러리 | `mlagents` |
-| 멘토 자료 경로 | `unit-7/` |
+| 자료 경로 | `unit-7/` |
 
 </div>
 
@@ -280,7 +261,7 @@ MARL의 핵심 개념과 Self-Play 전략을 이해하고, 2vs2 축구 환경을
 | 핵심 개념 | High-Throughput RL Pipeline, Sample Factory |
 | 실습 환경 | `VizDoom` Health Gathering Supreme |
 | 주요 라이브러리 | `sample-factory`, `vizdoom` |
-| 멘토 자료 경로 | `unit-8/` |
+| 자료 경로 | `unit-8/` |
 
 </div>
 
@@ -321,14 +302,17 @@ MARL의 핵심 개념과 Self-Play 전략을 이해하고, 2vs2 축구 환경을
 </div>
 """
 
-# ── 진행도 자동 업데이트 스크립트 ──────────────────────────────────────────────
-# 멘토용: note.md 또는 curriculum.md 존재 여부로 완료 판정
+# ── 진행도 자동 업데이트 스크립트 ─────────────────────────────────────────────
+# 체크 기준:
+#   실습 파일 → .ipynb 또는 .py 존재
+#   노션 정리본 → notion.txt 존재 (내용에 링크 기입)
 UPDATE_PROGRESS_PY = '''\
 """
 T-SUM Mentor Progress Auto-Updater
 ------------------------------------
-unit-1 ~ unit-8 폴더에 note.md 또는 curriculum.md 파일이 존재하는지 확인하고
-README.md 의 <!-- PROGRESS_START --> ~ <!-- PROGRESS_END --> 블록을 자동 갱신합니다.
+unit-1 ~ unit-8 폴더의 아래 두 항목을 체크합니다.
+  1. 실습 파일 : .ipynb 또는 .py 존재 여부
+  2. 노션 정리본 : notion.txt 존재 여부
 """
 
 import os
@@ -336,32 +320,34 @@ import re
 from datetime import datetime, timezone, timedelta
 
 UNITS = {
-    "unit-1": {"title": "Intro to Deep RL",            "env": "LunarLander"},
-    "unit-2": {"title": "Q-Learning",                  "env": "FrozenLake / Taxi"},
-    "unit-3": {"title": "Deep Q-Learning (DQN)",       "env": "Space Invaders"},
-    "unit-4": {"title": "Policy Gradient (REINFORCE)",  "env": "CartPole / Pixelcopter"},
-    "unit-5": {"title": "Unity ML-Agents",             "env": "SnowballTarget / Pyramids"},
-    "unit-6": {"title": "Actor-Critic (A2C)",          "env": "PyBullet Robotics"},
-    "unit-7": {"title": "Multi-Agent RL (MARL)",       "env": "Soccer 2v2"},
-    "unit-8": {"title": "PPO",                         "env": "LunarLander / VizDoom"},
+    "unit-1": {"title": "Intro to Deep RL"},
+    "unit-2": {"title": "Q-Learning"},
+    "unit-3": {"title": "Deep Q-Learning (DQN)"},
+    "unit-4": {"title": "Policy Gradient (REINFORCE)"},
+    "unit-5": {"title": "Unity ML-Agents"},
+    "unit-6": {"title": "Actor-Critic (A2C)"},
+    "unit-7": {"title": "Multi-Agent RL (MARL)"},
+    "unit-8": {"title": "PPO"},
 }
 
-NOTE_FILE       = "note.md"
-CURRICULUM_FILE = "curriculum.md"
-README_PATH     = "README.md"
-KST             = timezone(timedelta(hours=9))
+PRACTICE_EXTS = {".ipynb", ".py"}
+NOTION_FILE   = "notion.txt"
+README_PATH   = "README.md"
+KST           = timezone(timedelta(hours=9))
 
-def check_folder(folder: str):
-    """note.md, curriculum.md 존재 여부를 (bool, bool) 로 반환"""
+def check_unit(folder: str):
+    """(has_practice, has_notion) 반환"""
     if not os.path.isdir(folder):
         return False, False
     files = os.listdir(folder)
-    has_note = NOTE_FILE in files
-    has_curr = CURRICULUM_FILE in files
-    return has_note, has_curr
+    has_practice = any(
+        os.path.splitext(f)[1].lower() in PRACTICE_EXTS for f in files
+    )
+    has_notion = NOTION_FILE in files
+    return has_practice, has_notion
 
-statuses  = {k: check_folder(k) for k in UNITS}
-completed = sum(1 for n, cu in statuses.values() if n or cu)
+statuses  = {k: check_unit(k) for k in UNITS}
+completed = sum(1 for p, n in statuses.values() if p or n)
 total     = len(UNITS)
 pct       = int(completed / total * 100)
 
@@ -371,13 +357,13 @@ bar     = "█" * filled + "░" * (BAR_LEN - filled)
 
 rows = []
 for folder, info in UNITS.items():
-    has_note, has_curr = statuses[folder]
-    icon      = "✅" if (has_note or has_curr) else "⬜"
-    note_str  = "업로드" if has_note else "미업로드"
-    curr_str  = "업로드" if has_curr else "미업로드"
+    has_p, has_n = statuses[folder]
+    icon      = "✅" if (has_p and has_n) else ("🔶" if (has_p or has_n) else "⬜")
+    p_str     = "✅" if has_p else "❌"
+    n_str     = "✅" if has_n else "❌"
     unit_num  = folder.replace("unit-", "")
     rows.append(
-        f"| {icon} | **Unit {unit_num}** | {info[\'title\']} | {note_str} | {curr_str} |"
+        f"| {icon} | **Unit {unit_num}** | {info[\'title\']} | {p_str} | {n_str} |"
     )
 
 table   = "\\n".join(rows)
@@ -394,13 +380,13 @@ progress_block = f"""<!-- PROGRESS_START -->
 
 <br>
 
-| 상태 | Unit | 주제 | 정리본 | 커리큘럼 메모 |
+| 상태 | Unit | 주제 | 실습 파일 | 노션 정리본 |
 |:---:|:---:|:---:|:---:|:---:|
 {table}
 
 </div>
 
-> 📌 각 Unit 폴더에 파일을 업로드하면 진행도가 자동으로 갱신됩니다.
+> 📌 각 Unit 폴더에 실습 파일(`.ipynb`/`.py`)과 노션 링크(`notion.txt`)를 업로드하면 진행도가 자동으로 갱신됩니다.
 
 ---
 <!-- PROGRESS_END -->"""
@@ -469,103 +455,38 @@ jobs:
 GITKEEP = ""
 
 # ══════════════════════════════════════════════════════════════════════════════
-# 2. Unit별 초기 파일 내용
+# 2. Unit 초기 파일 내용
 # ══════════════════════════════════════════════════════════════════════════════
 
 UNIT_INFO = {
-    "unit-1": ("Introduction to Deep Reinforcement Learning",
-                "LunarLander-v2", "stable-baselines3, gymnasium"),
-    "unit-2": ("Introduction to Q-Learning",
-                "FrozenLake-v1, Taxi-v3", "numpy, gymnasium"),
-    "unit-3": ("Deep Q-Learning with Atari Games",
-                "SpaceInvadersNoFrameskip-v4", "rl-baselines3-zoo, gymnasium[atari]"),
-    "unit-4": ("Policy Gradient with PyTorch",
-                "CartPole-v1, Pixelcopter-PLE-v0", "torch, gymnasium"),
-    "unit-5": ("Introduction to Unity ML-Agents",
-                "SnowballTarget, Pyramids", "mlagents"),
-    "unit-6": ("Actor-Critic Methods with Robotics",
-                "PyBullet Robotics Environments", "stable-baselines3, pybullet"),
-    "unit-7": ("Multi-Agent Reinforcement Learning",
-                "SoccerTwos (Unity ML-Agents)", "mlagents"),
-    "unit-8": ("Proximal Policy Optimization (PPO)",
-                "LunarLander-v2 / VizDoom Health Gathering Supreme",
-                "torch, sample-factory, vizdoom"),
+    "unit-1": "Introduction to Deep Reinforcement Learning",
+    "unit-2": "Introduction to Q-Learning",
+    "unit-3": "Deep Q-Learning with Atari Games",
+    "unit-4": "Policy Gradient with PyTorch",
+    "unit-5": "Introduction to Unity ML-Agents",
+    "unit-6": "Actor-Critic Methods with Robotics",
+    "unit-7": "Multi-Agent Reinforcement Learning",
+    "unit-8": "Proximal Policy Optimization (PPO)",
 }
 
-def make_note(unit_num: int, title: str, env: str, libs: str) -> str:
-    """개념 정리본 템플릿"""
+def make_notion_txt(unit_num: int, title: str) -> str:
     return textwrap.dedent(f"""\
-        # Unit {unit_num} — {title} : 개념 정리본
+        # Unit {unit_num} — {title} : Notion 정리본 링크
 
-        > 멘티 배포용 개념 정리 노트입니다. 수업 전 작성 후 업로드하세요.
+        아래에 Notion 링크를 붙여넣으세요.
 
-        ---
+        링크:
 
-        ## 핵심 개념
-
-        <!-- 이 Unit에서 반드시 이해해야 할 개념을 정리하세요 -->
-
-        -
-        -
-        -
-
-        ## 알고리즘 / 수식 정리
-
-        <!-- 주요 알고리즘 흐름이나 수식을 정리하세요 -->
-
-        ## 실습 요약
-
-        | 항목 | 내용 |
-        |:---:|:---:|
-        | 실습 환경 | `{env}` |
-        | 주요 라이브러리 | `{libs}` |
-
-        ## 보충 자료
-
-        - [HuggingFace Course Unit {unit_num}](https://huggingface.co/learn/deep-rl-course/unit{unit_num}/introduction)
-
-        ## 멘토 메모
-
-        <!-- 수업 중 멘티 반응, 보완할 설명 등 자유롭게 기록하세요 -->
     """)
 
-def make_curriculum(unit_num: int, title: str) -> str:
-    """수업 진행 계획 메모 템플릿"""
+def make_memo(unit_num: int, title: str) -> str:
     return textwrap.dedent(f"""\
-        # Unit {unit_num} — {title} : 수업 진행 계획
+        # Unit {unit_num} — {title} : 메모
+
+        멘티들에게 전달할 내용, 수업 중 특이사항, 참고 자료 등 자유롭게 기입하세요.
 
         ---
 
-        ## 수업 목표
-
-        <!-- 이번 Unit에서 멘티가 달성해야 할 목표를 작성하세요 -->
-
-        1.
-        2.
-        3.
-
-        ## 수업 순서
-
-        | 순서 | 내용 | 예상 시간 |
-        |:---:|---|:---:|
-        | 1 | 개념 질문 및 복습 | 분 |
-        | 2 | 실습 진행 | 분 |
-        | 3 | 결과 공유 및 피드백 | 분 |
-
-        ## 사전 학습 안내 (멘티용)
-
-        <!-- 수업 전 멘티에게 안내할 사전 학습 내용을 작성하세요 -->
-
-        - [ ]
-        - [ ]
-
-        ## 실습 포인트
-
-        <!-- 실습 중 멘티가 특히 주의해야 할 부분을 작성하세요 -->
-
-        ## 수업 후 기록
-
-        <!-- 수업 진행 후 특이사항, 다음 수업 개선점 등을 기록하세요 -->
     """)
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -614,14 +535,12 @@ def main() -> None:
     )
 
     head("③ Unit 폴더 생성 (unit-1 ~ unit-8)")
-    for folder, (title, env, libs) in UNIT_INFO.items():
+    for folder, title in UNIT_INFO.items():
         unit_num = int(folder.split("-")[1])
         unit_dir = os.path.join(BASE, folder)
-        write_file(os.path.join(unit_dir, ".gitkeep"), GITKEEP)
-        write_file(os.path.join(unit_dir, "note.md"),
-                   make_note(unit_num, title, env, libs))
-        write_file(os.path.join(unit_dir, "curriculum.md"),
-                   make_curriculum(unit_num, title))
+        write_file(os.path.join(unit_dir, ".gitkeep"),  GITKEEP)
+        write_file(os.path.join(unit_dir, "notion.txt"), make_notion_txt(unit_num, title))
+        write_file(os.path.join(unit_dir, "memo.md"),    make_memo(unit_num, title))
 
     head("④ 메인 README.md 생성")
     write_file(os.path.join(BASE, "README.md"), README_CONTENT)
@@ -661,7 +580,8 @@ def main() -> None:
     print(c("  2. GitHub Settings → Actions → General →", "37"))
     print(c("     Workflow permissions → Read and write 로 설정하세요.", "37"))
     print()
-    print(c("  3. 각 unit-N/note.md 와 curriculum.md 를 작성 후 push하면", "37"))
+    print(c("  3. 각 unit-N/notion.txt 에 노션 링크를 기입하고,", "37"))
+    print(c("     실습 파일(.ipynb/.py)을 업로드 후 push하면", "37"))
     print(c("     README 진행도가 자동으로 갱신됩니다.", "37"))
     print(c("  ─────────────────────────────────────────────────────────", "90"))
     print()
