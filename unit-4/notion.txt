@@ -2,5 +2,5 @@
 
 아래에 Notion 링크를 붙여넣으세요.
 
-링크:
+링크:https://app.notion.com/p/jangseongyu/UNIT-4-Policy-Gradient-with-PyTorch-1a023c5b4de7804e9555db1861c925a0?pvs=28
 
