@@ -17,26 +17,26 @@
 
 <div align="center">
 
-### `████████████████████` &nbsp; 8 / 8 Units &nbsp; **100%**
+### `██████████░░░░░░░░░░` &nbsp; 4 / 8 Units &nbsp; **50%**
 
-🕐 마지막 업데이트: 2026-08-01 20:26 KST
+🕐 마지막 업데이트: 2026-08-01 20:44 KST
 
 <br>
 
-| 상태 | Unit | 주제 | 정리본 | 커리큘럼 메모 |
+| 상태 | Unit | 주제 | 실습 파일 | 노션 정리본 |
 |:---:|:---:|:---:|:---:|:---:|
-| ✅ | **Unit 1** | Intro to Deep RL | 업로드 | 업로드 |
-| ✅ | **Unit 2** | Q-Learning | 업로드 | 업로드 |
-| ✅ | **Unit 3** | Deep Q-Learning (DQN) | 업로드 | 업로드 |
-| ✅ | **Unit 4** | Policy Gradient (REINFORCE) | 업로드 | 업로드 |
-| ✅ | **Unit 5** | Unity ML-Agents | 업로드 | 업로드 |
-| ✅ | **Unit 6** | Actor-Critic (A2C) | 업로드 | 업로드 |
-| ✅ | **Unit 7** | Multi-Agent RL (MARL) | 업로드 | 업로드 |
-| ✅ | **Unit 8** | PPO | 업로드 | 업로드 |
+| 🔶 | **Unit 1** | Intro to Deep RL | ❌ | ✅ |
+| 🔶 | **Unit 2** | Q-Learning | ❌ | ✅ |
+| 🔶 | **Unit 3** | Deep Q-Learning (DQN) | ❌ | ✅ |
+| 🔶 | **Unit 4** | Policy Gradient (REINFORCE) | ❌ | ✅ |
+| ⬜ | **Unit 5** | Unity ML-Agents | ❌ | ❌ |
+| ⬜ | **Unit 6** | Actor-Critic (A2C) | ❌ | ❌ |
+| ⬜ | **Unit 7** | Multi-Agent RL (MARL) | ❌ | ❌ |
+| ⬜ | **Unit 8** | PPO | ❌ | ❌ |
 
 </div>
 
-> 📌 각 Unit 폴더에 파일을 업로드하면 진행도가 자동으로 갱신됩니다.
+> 📌 각 Unit 폴더에 실습 파일(`.ipynb`/`.py`)과 노션 링크(`notion.txt`)를 업로드하면 진행도가 자동으로 갱신됩니다.
 
 ---
 <!-- PROGRESS_END -->
