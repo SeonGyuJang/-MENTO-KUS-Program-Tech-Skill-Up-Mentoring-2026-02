@@ -2,5 +2,5 @@
 
 아래에 Notion 링크를 붙여넣으세요.
 
-링크:
+링크:https://app.notion.com/p/jangseongyu/UNIT-2-Introduction-to-Q-Learning-18c23c5b4de780229af4e96b89543565
 

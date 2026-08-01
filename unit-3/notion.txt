@@ -2,5 +2,5 @@
 
 아래에 Notion 링크를 붙여넣으세요.
 
-링크:
+링크:https://app.notion.com/p/jangseongyu/UNIT-3-Deep-Q-Learning-with-Atari-games-19223c5b4de7804e8946f70f42f4d495
 
