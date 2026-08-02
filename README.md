@@ -19,14 +19,14 @@
 
 ### `██████████░░░░░░░░░░` &nbsp; 4 / 8 Units &nbsp; **50%**
 
-🕐 마지막 업데이트: 2026-08-02 18:46 KST
+🕐 마지막 업데이트: 2026-08-03 01:17 KST
 
 <br>
 
 | 상태 | Unit | 주제 | 실습 파일 | 노션 정리본 |
 |:---:|:---:|:---:|:---:|:---:|
 | ✅ | **Unit 1** | Intro to Deep RL | ✅ | ✅ |
-| 🔶 | **Unit 2** | Q-Learning | ❌ | ✅ |
+| ✅ | **Unit 2** | Q-Learning | ✅ | ✅ |
 | 🔶 | **Unit 3** | Deep Q-Learning (DQN) | ❌ | ✅ |
 | 🔶 | **Unit 4** | Policy Gradient (REINFORCE) | ❌ | ✅ |
 | ⬜ | **Unit 5** | Unity ML-Agents | ❌ | ❌ |
