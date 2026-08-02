@@ -19,7 +19,7 @@
 
 ### `██████████░░░░░░░░░░` &nbsp; 4 / 8 Units &nbsp; **50%**
 
-🕐 마지막 업데이트: 2026-08-03 01:17 KST
+🕐 마지막 업데이트: 2026-08-03 02:38 KST
 
 <br>
 
@@ -27,7 +27,7 @@
 |:---:|:---:|:---:|:---:|:---:|
 | ✅ | **Unit 1** | Intro to Deep RL | ✅ | ✅ |
 | ✅ | **Unit 2** | Q-Learning | ✅ | ✅ |
-| 🔶 | **Unit 3** | Deep Q-Learning (DQN) | ❌ | ✅ |
+| ✅ | **Unit 3** | Deep Q-Learning (DQN) | ✅ | ✅ |
 | 🔶 | **Unit 4** | Policy Gradient (REINFORCE) | ❌ | ✅ |
 | ⬜ | **Unit 5** | Unity ML-Agents | ❌ | ❌ |
 | ⬜ | **Unit 6** | Actor-Critic (A2C) | ❌ | ❌ |
