@@ -4,3 +4,5 @@
 
 ---
 
+[ 참고 자료 / 학습 영상, 모델 파일 등 ]
+- https://drive.google.com/drive/folders/1OfJJXScxv9PEn5Bu--S0NP5372e4AfaB?usp=sharing
