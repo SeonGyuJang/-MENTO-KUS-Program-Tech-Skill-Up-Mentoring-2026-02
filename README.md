@@ -17,9 +17,9 @@
 
 <div align="center">
 
-### `████████████░░░░░░░░` &nbsp; 5 / 8 Units &nbsp; **62%**
+### `███████████████░░░░░` &nbsp; 6 / 8 Units &nbsp; **75%**
 
-🕐 마지막 업데이트: 2026-08-03 07:49 KST
+🕐 마지막 업데이트: 2026-08-03 22:33 KST
 
 <br>
 
@@ -30,7 +30,7 @@
 | ✅ | **Unit 3** | Deep Q-Learning (DQN) | ✅ | ✅ |
 | ✅ | **Unit 4** | Policy Gradient (REINFORCE) | ✅ | ✅ |
 | ✅ | **Unit 5** | Unity ML-Agents | ✅ | ✅ |
-| ⬜ | **Unit 6** | Actor-Critic (A2C) | ❌ | ❌ |
+| ✅ | **Unit 6** | Actor-Critic (A2C) | ✅ | ✅ |
 | ⬜ | **Unit 7** | Multi-Agent RL (MARL) | ❌ | ❌ |
 | ⬜ | **Unit 8** | PPO | ❌ | ❌ |
 
