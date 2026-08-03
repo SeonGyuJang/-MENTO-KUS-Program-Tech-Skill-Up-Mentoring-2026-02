@@ -1,0 +1,6 @@
+# Unit 6 — Actor-Critic Methods with Robotics : 메모
+
+아래에 Notion 링크를 붙여넣으세요.
+
+링크:https://app.notion.com/p/jangseongyu/Unit-6-Actor-Critic-Methods-with-Robotics-Environments-3b123c5b4de7804ab06bfc1b7f548267
+
