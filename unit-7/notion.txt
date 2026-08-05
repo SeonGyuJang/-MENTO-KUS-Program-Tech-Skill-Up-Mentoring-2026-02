@@ -1,0 +1,6 @@
+# Unit 7 — Multi-Agent Reinforcement Learning : 메모
+
+아래에 Notion 링크를 붙여넣으세요.
+
+링크:https://app.notion.com/p/jangseongyu/Unit-7-Inrtoduction-to-Multi-Agents-and-AI-vs-AI-3b323c5b4de7804c8ce4f009948d9331
+

@@ -1,0 +1,7 @@
+# Unit 8 — Proximal Policy Optimization (PPO) : 메모
+
+아래에 Notion 링크를 붙여넣으세요.
+
+PART 1 : https://app.notion.com/p/jangseongyu/18723c5b4de780c2890fc2615077f5b9?v=18723c5b4de78178861c000c5c6060bb&p=3b323c5b4de780819030f1a8b671bb99&pm=c
+PART 2 : https://app.notion.com/p/jangseongyu/18723c5b4de780c2890fc2615077f5b9?v=18723c5b4de78178861c000c5c6060bb&p=3b323c5b4de780d191fdef1be3422e5d&pm=c
+

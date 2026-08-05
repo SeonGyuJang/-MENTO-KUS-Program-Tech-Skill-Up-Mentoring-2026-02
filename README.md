@@ -41,6 +41,33 @@
 ---
 <!-- PROGRESS_END -->
 
+## 🏅 이수증
+
+<div align="center">
+
+| 조건 | 이수증 종류 |
+|:---:|:---:|
+| 80% 이상 완료 | Certificate of Completion |
+| 100% 완료 | Certificate of Excellence |
+
+<br>
+
+### Certificate of Completion
+> 전체 커리큘럼의 80% 이상을 완료한 경우 발행됩니다.
+
+<img src="asset/Certificate_80.png" width="600px" alt="Certificate of Completion"/>
+
+<br><br>
+
+### Certificate of Excellence
+> 전체 커리큘럼을 100% 완료한 경우 발행됩니다.
+
+<img src="asset/Certificate_100.png" width="600px" alt="Certificate of Excellence"/>
+
+</div>
+
+---
+
 ## 📌 레포지토리 소개
 
 본 레포지토리는 **고려대학교 세종캠퍼스 학생복지처 취창업지원센터**가 주관하는 **T-SUM(Tech Skill Up Mentoring) 프로그램**의 **멘토 자료 저장소**입니다.
@@ -60,6 +87,10 @@
 │
 ├── 📁 scripts/
 │   └── 🐍 update_progress.py          # 진행도 계산 스크립트
+│
+├── 📁 asset/
+│   ├── 🖼️ Certificate_80.png          # Certificate of Completion
+│   └── 🖼️ Certificate_100.png         # Certificate of Excellence
 │
 ├── 📁 unit-1/                         # Introduction to Deep RL
 │   ├── 📄 notion.txt                  # Notion 정리본 링크
