@@ -17,9 +17,9 @@
 
 <div align="center">
 
-### `███████████████░░░░░` &nbsp; 6 / 8 Units &nbsp; **75%**
+### `████████████████████` &nbsp; 8 / 8 Units &nbsp; **100%**
 
-🕐 마지막 업데이트: 2026-08-03 22:34 KST
+🕐 마지막 업데이트: 2026-08-05 20:47 KST
 
 <br>
 
@@ -31,8 +31,8 @@
 | ✅ | **Unit 4** | Policy Gradient (REINFORCE) | ✅ | ✅ |
 | ✅ | **Unit 5** | Unity ML-Agents | ✅ | ✅ |
 | ✅ | **Unit 6** | Actor-Critic (A2C) | ✅ | ✅ |
-| ⬜ | **Unit 7** | Multi-Agent RL (MARL) | ❌ | ❌ |
-| ⬜ | **Unit 8** | PPO | ❌ | ❌ |
+| ✅ | **Unit 7** | Multi-Agent RL (MARL) | ✅ | ✅ |
+| ✅ | **Unit 8** | PPO | ✅ | ✅ |
 
 </div>
 
